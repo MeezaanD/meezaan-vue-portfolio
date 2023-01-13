@@ -48,7 +48,7 @@ export default {
                 },
                 {
                     name: 'Cassidy Lawrence',
-                    image: "https://i.postimg.cc/c4pj7tZd/images.png",
+                    image: "https://i.postimg.cc/TPdz0PZv/Profile.png",
                     message: 'Meezaan is a driven person. He will always make an effort to find a solution and will never hesitate to ask for assistance when necessary. He is a brilliant, intelligent guy who is always willing to give sound advise to anyone who requests it. He also has excellent social skills that make him a wonderful team member. His artistic side nearly never lets him down. He completes tasks once he sets his mind to them.'
                 },
                 {

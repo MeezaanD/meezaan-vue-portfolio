@@ -8,6 +8,7 @@
                   <a href="#testimonials" type="button" class="btn btn-outline-dark"><i class="fa-solid fa-arrow-up"></i></a>
                   <a href="#home" type="button" class="btn btn-outline-dark"><i class="fa-sharp fa-solid fa-house"></i></a>
                 </div>
+                <h2>Contact</h2>
                 </center>
                 <h3>Thank you for Reviewing my portfolio</h3>
                 <h6>Any feedback will be highly appreciated</h6>

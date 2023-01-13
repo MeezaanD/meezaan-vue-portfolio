@@ -2,27 +2,27 @@
   <section id="home"></section>
   <div class="landing-img">
       <div class="nav-container">
-        <div class="btn-group" role="group" aria-label="Basic outlined example">
-          <ul>
-            <li><a href="#home" class="btn text-dark" style="font-size: large;">Home</a></li>
-            <li><a href="#about" class="btn text-dark" style="font-size: large;" >About</a></li>
-            <li><a href="#resume" class="btn text-dark" style="font-size: large;">Resume</a></li>
-            <li><a href="#projects" class="btn text-light" style="font-size: large;">Projects</a></li>
-            <li><a href="#testimonials" class="btn text-light" style="font-size: large;">Testimonials</a></li>
-            <li><a href="#contact" class="btn text-light" style="font-size: large;">Contact</a></li>
-          </ul>
-        </div>
+        <ul>
+          <li><a href="#home" class="btn gap-5 text-dark" style="font-size: large;">Home</a></li>
+          <li><a href="#about" class="btn gap-5 text-dark" style="font-size: large;" >About</a></li>
+          <li><a href="#resume" class="btn gap-5 text-dark" style="font-size: large;">Resume</a></li>
+          <li><a href="#projects" class="btn gap-5 text-light" style="font-size: large;">Projects</a></li>
+          <li><a href="#testimonials" class="btn gap-5 text-light" style="font-size: large;">Testimonials</a></li>
+          <li><a href="#contact" class="btn text-light" style="font-size: large;">Contact</a></li>
+        </ul>
       </div>
     <header>
   <div class="display-left text-dark" style="padding-left:50px;padding-bottom:50px;">
     <img class="spin" src="https://i.postimg.cc/0jWp1JRy/My-project.png" alt="">
     <h1>Welcome to my Portfolio</h1><br>
-    <h4>Aspiring Web Developer</h4><br>
-    <!-- <h5>Just Getting Started</h5><br> -->
+    <h4>Aspiring</h4><br>
     <p><button><a href="#about">Get to know me</a></button></p>
-    <a class="btn btn-lg btn-floating text-dark" href="https://www.instagram.com/meezaan.davids/" target="_blank" role="button"><i class="fab fa-instagram"></i></a>
-    <a class="btn btn-lg btn-floating text-dark" href="https://twitter.com/DavidsMeezaan" target="_blank" role="button"><i class="fab fa-twitter"></i> </a>
-    <a class="btn btn-lg btn-floating text-dark" href="https://www.youtube.com/channel/UCLn6kcbWaK1e_NpKx8OX9bg" target="_blank" role="button"><i class="fab fa-youtube"></i></a>
+    <div class="btn-group" role="group" aria-label="Basic outlined example">
+      <a class="btn btn-lg btn-floating text-dark" href="https://www.instagram.com/meezaan.davids/" target="_blank" role="button"><i class="fab fa-instagram"></i></a>
+      <a class="btn btn-lg btn-floating text-dark" href="https://twitter.com/DavidsMeezaan" target="_blank" role="button"><i class="fab fa-twitter"></i> </a>
+      <a class="btn btn-lg btn-floating text-dark" href="https://www.youtube.com/channel/UCLn6kcbWaK1e_NpKx8OX9bg" target="_blank" role="button"><i class="fab fa-youtube"></i></a>
+    </div>
+
   </div>
 </header>
   </div>
@@ -58,11 +58,13 @@ li {
   display: inline-flex;
   list-style: none;
 }
+
 header {
   position: relative;
   top: 40%;
   color: white;
 }
+
 button {
   background-color: transparent;
   height: 30px;
@@ -71,10 +73,12 @@ button {
   font-family: 'Dancing Script', cursive;
   font-size: larger;
 }
+
 button:hover {
   background-color: rgb(216, 191, 191);
   color: black;
 }
+
 a:link {
   text-decoration: none;
   color: black;
@@ -123,4 +127,16 @@ a:active {
   padding: 0;
 }
 
+.spin {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
 </style>

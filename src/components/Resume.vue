@@ -9,6 +9,7 @@
                 <a href="#projects" type="button" class="btn btn-outline-dark"><i class="fa-solid fa-arrow-down"></i></a>
               </div>
             </center>
+            <h2>Resume</h2>
             <div class="container">
                 <div class="row align-items-start">
                   <div class="col">
