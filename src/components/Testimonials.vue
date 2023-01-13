@@ -15,7 +15,7 @@
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
                     <h5>{{item.name}}</h5> 
-                    <img :src="item.image" alt="Avatar" style="width:20rem;height:20rem;">
+                    <img :src="item.image" alt="Avatar" style="width:20rem;height:20rem;padding:20px;">
                   </div>
                   <div class="flip-card-back">
                     <h6>Message</h6>

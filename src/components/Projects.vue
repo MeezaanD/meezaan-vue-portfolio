@@ -12,7 +12,7 @@
         <h2>Projects</h2>
         <h4>My Projects have thus far consisted of HTML, CSS, Javascript</h4>
         <div class="row">
-          <div class="card" v-for="item in projects" :key="item" style="width: 25rem;height:25rem;margin:auto;background-color:transparent;">
+          <div class="card" v-for="item in projects" :key="item" style="width: 25rem;height:25rem;margin:auto;background-color:transparent;padding:50px;">
               <img :src=item.image class="card-img-top" style="width: 100%;height:15rem;padding:20px;" alt="...">
               <div class="card-body">
                 <center>

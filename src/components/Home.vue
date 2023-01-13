@@ -2,13 +2,25 @@
   <section id="home"></section>
   <div class="landing-img">
       <div class="nav-container">
-        <ul>
-          <li><a href="#home" class="btn gap-5 text-dark" style="font-size: large;">Home</a></li>
-          <li><a href="#about" class="btn gap-5 text-dark" style="font-size: large;" >About</a></li>
-          <li><a href="#resume" class="btn gap-5 text-dark" style="font-size: large;">Resume</a></li>
-          <li><a href="#projects" class="btn gap-5 text-light" style="font-size: large;">Projects</a></li>
-          <li><a href="#testimonials" class="btn gap-5 text-light" style="font-size: large;">Testimonials</a></li>
-          <li><a href="#contact" class="btn text-light" style="font-size: large;">Contact</a></li>
+        <ul class="nav p-2">
+          <li class="nav-item">
+            <li><a href="#home" class="btn gap-5 text-light" style="font-size: large;">Home</a></li>
+          </li>
+          <li class="nav-item">
+            <li><a href="#about" class="btn gap-5 text-light" style="font-size: large;" >About</a></li>
+          </li>
+          <li class="nav-item">
+            <li><a href="#resume" class="btn gap-5 text-light" style="font-size: large;">Resume</a></li>
+          </li>
+          <li class="nav-item">
+            <li><a href="#projects" class="btn gap-5 text-light" style="font-size: large;">Projects</a></li>
+          </li>
+          <li class="nav-item">
+            <li><a href="#testimonials" class="btn gap-5 text-light" style="font-size: large;">Testimonials</a></li>
+          </li>
+          <li class="nav-item">
+            <li><a href="#contact" class="btn gap-5 text-light" style="font-size: large;">Contact</a></li>
+          </li>
         </ul>
       </div>
     <header>
