@@ -37,7 +37,7 @@
                             <div class="skills">
                                 <div class="details">
                                     <span>Javascript</span>
-                                    <span>50%</span>
+                                    <span>55%</span>
                                 </div>
                                 <div class="bar">
                                     <div id="js-bar"></div>
@@ -55,7 +55,7 @@
                             <div class="skills">
                                 <div class="details">
                                     <span>Vue JS</span>
-                                    <span>40%</span>
+                                    <span>60%</span>
                                 </div>
                                 <div class="bar">
                                     <div id="vue-js"></div>
@@ -235,7 +235,7 @@ h2{
 }
 @keyframes js-fill {
     100%{
-        width: 50%;
+        width: 55%;
     }
 }
 #bootstrap{
@@ -251,7 +251,7 @@ h2{
 }
 @keyframes vue-js-fill{
     100%{
-        width: 40%;
+        width: 60%;
     }
 }
 </style>

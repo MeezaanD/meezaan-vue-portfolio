@@ -51,6 +51,9 @@ export default {
 }
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
 #about {
   height: 100%;
   width: 100%;
@@ -117,8 +120,8 @@ opacity: 1;
 .text {
 background-color:rgb(216, 191, 191);
 color: black;
-font-size: 16px;
+font-size: 30px;
 padding:6px;
-border: 2px solid white;
+font-family: 'Dancing Script', cursive;
 }
 </style>

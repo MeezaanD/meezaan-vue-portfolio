@@ -15,7 +15,11 @@
   <div class="display-left text-dark" style="padding-left:50px;padding-bottom:50px;">
     <img class="spin" src="https://i.postimg.cc/0jWp1JRy/My-project.png" alt="">
     <h1>Welcome to my Portfolio</h1><br>
-    <h4>Aspiring</h4><br>
+   
+      <div class="typewriter">
+        <h4>Aspiring Web Developer</h4>
+      </div>
+    <br>
     <p><button><a href="#about">Get to know me</a></button></p>
     <div class="btn-group" role="group" aria-label="Basic outlined example">
       <a class="btn btn-lg btn-floating text-dark" href="https://www.instagram.com/meezaan.davids/" target="_blank" role="button"><i class="fab fa-instagram"></i></a>
@@ -137,6 +141,30 @@ a:active {
   }
   to {
     transform: rotate(0);
+  }
+}
+
+.typewriter {
+	width: 34ch;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #212121;
+	animation: cursor 1s step-start infinite, 
+    text 5s steps(18) alternate infinite;
+}
+
+@keyframes cursor {
+	0%, 100% { 
+    border-color: #212121; 
+  }
+}
+
+@keyframes text {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 34ch; 
   }
 }
 </style>
