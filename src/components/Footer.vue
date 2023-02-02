@@ -28,7 +28,7 @@ export default {
 
 <style scoped>
 #footer {
-    height: 20vh;
+    height: auto;
     background-color: rgb(0, 0, 0);
     width: 100%;
   }

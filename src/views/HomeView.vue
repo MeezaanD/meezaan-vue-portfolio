@@ -1,12 +1,28 @@
 <template>
-  
-  <section><Home/></section>
-  <section><About/></section>
-  <Resume/>
-  <Projects/>
-  <Testimonials/>
-  <Contact/>
-  <Footer/>
+
+  <body>
+    <section>
+      <Home />
+    </section>
+    <section>
+      <About />
+    </section>
+    <section>
+      <Resume />
+    </section>
+    <section>
+      <Projects />
+    </section>
+    <section>
+      <Testimonials />
+    </section>
+    <section>
+      <Contact />
+    </section>
+    <section>
+      <Footer />
+    </section>
+  </body>
 </template>
 
 <script>
@@ -23,10 +39,13 @@ import Footer from '@/components/Footer.vue'
 export default {
   name: 'HomeView',
   components: {
-   Home, About, Resume, Projects, Testimonials, Contact, Footer
+    Home, About, Resume, Projects, Testimonials, Contact, Footer
   }
 }
 </script>
 
 <style>
+body {
+  overflow-x: hidden;
+}
 </style>

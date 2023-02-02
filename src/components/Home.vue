@@ -1,28 +1,57 @@
 <template>
   <section id="home"></section>
   <div class="landing-img">
-      <div class="nav-container">
+      <!-- <div class="nav-container">
         <ul class="nav p-2">
           <li class="nav-item">
-            <li><a href="#home" class="btn gap-5 text-light" style="font-size: large;"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#home" class="btn gap-5 text-light" style="font-size: large;"><i class="fa-solid fa-house"> Home</i></a></li>
           </li>
           <li class="nav-item">
-            <li><a href="#about" class="btn gap-5 text-light" style="font-size: large;" ><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="#about" class="btn gap-5 text-light" style="font-size: large;" ><i class="fa-solid fa-user"> About</i></a></li>
           </li>
           <li class="nav-item">
-            <li><a href="#resume" class="btn gap-5 text-light" style="font-size: large;"><i class="fa-solid fa-list"></i></a></li>
+            <li><a href="#resume" class="btn gap-5 text-light" style="font-size: large;"><i class="fa-solid fa-list"> Resume</i></a></li>
           </li>
           <li class="nav-item">
-            <li><a href="#projects" class="btn gap-5 text-light" style="font-size: large;"><i class="fa-sharp fa-solid fa-hammer"></i></a></li>
+            <li><a href="#projects" class="btn gap-5 text-light" style="font-size: large;"><i class="fa-sharp fa-solid fa-hammer"> Projects</i></a></li>
           </li>
           <li class="nav-item">
-            <li><a href="#testimonials" class="btn gap-5 text-light" style="font-size: large;"><i class="fa-solid fa-user-group"></i></a></li>
+            <li><a href="#testimonials" class="btn gap-5 text-light" style="font-size: large;"><i class="fa-solid fa-user-group"> Testimonials</i></a></li>
           </li>
           <li class="nav-item">
-            <li><a href="#contact" class="btn gap-5 text-light" style="font-size: large;"><i class="fa-solid fa-phone"></i></a></li>
+            <li><a href="#contact" class="btn gap-5 text-light" style="font-size: large;"><i class="fa-solid fa-phone"> Contact</i></a></li>
           </li>
         </ul>
-      </div>
+      </div> -->
+      <nav class="navbar navbar-expand-lg" style="backdrop-filter: blur(5px);">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav p-2 ">
+              <li class="nav-item">
+                <li><a href="#home" class="btn gap-5 text-light" style="font-size: large;"><i class="fa-solid fa-house"> Home  </i></a></li>
+              </li>
+              <li class="nav-item">
+                <li><a href="#about" class="btn gap-5 text-light" style="font-size: large;"><i class="fa-solid fa-user"> About</i></a></li>
+              </li>
+              <li class="nav-item">
+                <li><a href="#resume" class="btn gap-5 text-light" style="font-size: large;"><i class="fa-solid fa-list"> Resume</i></a></li>
+              </li>
+              <li class="nav-item">
+                <li><a href="#projects" class="btn gap-5 text-light" style="font-size: large;"><i class="fa-sharp fa-solid fa-hammer"> Projects</i></a></li>
+              </li>
+              <li class="nav-item">
+                <li><a href="#testimonials" class="btn gap-5 text-light" style="font-size: large;"><i class="fa-solid fa-user-group"> Testimonials</i></a></li>
+              </li>
+              <li class="nav-item">
+                <li><a href="#contact" class="btn gap-5 text-light" style="font-size: large;"><i class="fa-solid fa-phone"> Contact</i></a></li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <header>
   <div class="display-left text-dark" style="padding-left:50px;padding-bottom:50px;">
     <img class="spin" src="https://i.postimg.cc/0jWp1JRy/My-project.png" alt="">

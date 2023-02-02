@@ -14,7 +14,7 @@
           <div class="wrapper">
               <div class="text-box">
                 <div class="container-img">
-                  <img src="https://i.postimg.cc/tRftwSZW/Meezaan.jpg" class="image" style="height: 80vh;" alt="">
+                  <img src="https://i.postimg.cc/tRftwSZW/Meezaan.jpg" class="image img-fluid" style="height: 80vh;" alt="">
                   <div class="middle">
                     <div class="text">Meezaan Davids</div>
                    </div>

@@ -16,13 +16,13 @@
             <div class="container">
                 <form action="https://formspree.io/f/mbjbywlp" method="post">
                   <label for="name">Name</label>
-                  <input type="text" id="name" name="name" placeholder="Enter your name">
+                  <input type="text" id="name" name="name" required placeholder="Enter your name">
                   <label for="Surname">Surname</label>
-                  <input type="text" id="surname" name="surname" placeholder="Enter your surname">
+                  <input type="text" id="surname" name="surname" required placeholder="Enter your surname">
                   <label for="email">Your Email address</label>
-                  <input type="text" id="email" name="email" placeholder="Enter your email">
+                  <input type="text" id="email" name="email" required placeholder="Enter your email">
                   <label for="lname">Your Contact Number </label>
-                  <input type="text" id="number" name="number" placeholder="Enter your number">
+                  <input type="text" id="number" name="number" required placeholder="Enter your number">
                   <label for="topics">Topics you would like to discuss</label>
                   <select id="topics" name="topics">
                     <option value="Need help with my Code">Need help with my Code</option>
@@ -50,7 +50,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
   
   #contact {
-    height: 140vh;
+    height: auto;
     width: 100%;
   }
   * {
@@ -68,7 +68,7 @@
   }
   .contact-img {
     background-image: linear-gradient(white, rgb(216, 191, 191));
-    height: 140vh;
+    height: auto;
   }
   label {
     color: black;
