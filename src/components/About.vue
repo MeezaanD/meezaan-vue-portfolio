@@ -58,7 +58,7 @@ export default {
   height: 100%;
   width: 100%;
   background-image: linear-gradient(white, rgb(216, 191, 191));
-  color:black
+  color:black;
 }
 body {
   display: flex;

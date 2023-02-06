@@ -1,8 +1,8 @@
 <template>
     <section id="testimonials">
         <div>
-            <h2>Testimonials</h2>
-            <NavBar/>
+          <NavBar/>
+          <h2>Testimonials</h2>
             <center>
                 <div class="btn-group p-2" role="group" aria-label="Basic outlined example">
                     <a href="#projects" type="button" class="btn btn-outline-dark"><i class="fa-solid fa-arrow-up"></i></a>
