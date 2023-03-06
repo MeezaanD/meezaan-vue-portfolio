@@ -46,11 +46,11 @@
         live: "https://phenomenal-semolina-67d782.netlify.app/"
     },
     {
-        language: 'HTML & CSS',
-        name: 'Grid Activity',
-        image: "https://i.postimg.cc/x1tvpfRn/grid.png" ,
-        github: "https://github.com/MeezaanD/Grid-Activity.git",
-        live: "https://gridactivitymeezaan.netlify.app/"
+        language: 'Vue 3 & Node Js',
+        name: 'Active8',
+        image: "https://i.postimg.cc/Bv2Q7z9B/active.png" ,
+        github: "https://github.com/CassidyRomarioLawrence/Activ8_nodeEOMP",
+        live: "https://activ8-fullstack.web.app"
     },
     {
         language: 'HTML & CSS',
